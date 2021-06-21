@@ -1,0 +1,15 @@
+{
+    "name": "rahul/docker-lamp",
+    "authors": [
+        {
+            "name": "rahul",
+            "email": "iamrahulyadav97@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\":"./"
+        }
+    },
+    "require": {}
+}
