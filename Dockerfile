@@ -1,5 +1,6 @@
-FROM php:7.3-apache 
+FROM php:7.4-apache
 RUN docker-php-ext-install mysqli pdo_mysql
+RUN a2enmod rewrite
 RUN apt-get update \
     && apt-get install -y libzip-dev \
     && apt-get install -y zlib1g-dev \

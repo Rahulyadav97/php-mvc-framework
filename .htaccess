@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteBase /
+# Comment
+RewriteRule ^ /public%{REQUEST_URI} [PT]
+</IfModule>
